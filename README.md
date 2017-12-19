@@ -53,3 +53,20 @@ At this point the Computer should detect the Pi0w as a USB Ethernet device.  Onc
 ## Done
 <img src="https://github.com/smeathers/lede-pi0w-usb/raw/master/images/IMG_9304.jpg" width="400"><br/>
 Before and after.  The original Raspberry Pi Model B made a great portable router but the smaller size and single cable to the computer should make the Raspberry Pi Zero W much more practical.  Also configured with a USB WiFi adapter you can choose between USB Ethernet and a WiFi hotspot.
+
+## References
+#### USB Gadget Support<br/>
+https://lede-project.org/docs/user-guide/usb_gadget<br/>
+http://www.circuitbasics.com/raspberry-pi-zero-ethernet-gadget/<br/>
+https://gist.github.com/gbaman/975e2db164b3ca2b51ae11e45e8fd40a<br/>
+https://forum.lede-project.org/t/raspberry-pi-zero-w-ethernet-gadget-issue/2609<br/>
+https://lede-project.org/packages/pkgdata/kmod-usb-dwc2
+
+### Additional Reading
+I use my Pi-Router as an ad-blocker and a WiFi hotspot, I found these links useful. 
+#### Adblocking
+https://github.com/openwrt/packages/tree/master/net/adblock/files<br/>
+https://forum.lede-project.org/t/adblock-support-thread/507
+#### USB WiFi Adaptor
+https://www.andrewklau.com/openwrt-and-a-4-usb-wifi-adapter/
+
