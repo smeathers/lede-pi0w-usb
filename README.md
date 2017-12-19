@@ -32,7 +32,7 @@ The previous commands should have enabled WiFi on the LEDE install and created a
 4. Navigate to [System > Reboot] then click the “Perform reboot” button.  When the Pi comes back up it should now connect to your local WiFi network and the LEDE network will no longer be visible.
 
 ## With the Pi0w connected to your host WiFi network
-The following commands can either be entered on the keyboard connected to the Pi or via a SSH session.  This load the drivers for USB Ethernet then shut down the Pi.
+The following commands can either be entered on the keyboard connected to the Pi or via a SSH session.  This loads the drivers for USB Ethernet then shut down the Pi.
 ```bash
 opkg update
 opkg install kmod-usb-gadget-eth
