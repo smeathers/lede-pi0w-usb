@@ -42,7 +42,7 @@ halt
 At this point the keyboard and monitor should no longer be needed.
 
 ## Editing the config.txt file
-With the MicroSD card back in the computer open the config.txt file in the root of the card.<br/>
+With the MicroSD card back in the computer open the config.txt file in the root of the SD card.<br/>
 <img src="https://github.com/smeathers/lede-pi0w-usb/raw/master/images/config-txt-diff.png" width="400"><br/>
 At the end of the file add ```dtoverlay=dwc2``` to a new line, save, eject the MicroSD card and reinsert it into the Pi0w.
 
