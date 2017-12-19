@@ -49,3 +49,6 @@ At the end of the file add ```dtoverlay=dwc2``` to a new line, save, eject the M
 ## Power the Pi0w via the USB port connected to a computer
 <img src="https://github.com/smeathers/lede-pi0w-usb/raw/master/images/IMG_9306.jpg" width="400"><br/>
 At this point the Computer should detect the Pi0w as a USB Ethernet device.  Once the correct drivers are loaded it should receive an IP address from the DHCP server running on the Pi0w allowing further SSH and LuCI configuration.
+<br/>
+<img src="https://github.com/smeathers/lede-pi0w-usb/raw/master/images/IMG_9304.jpg" width="400"><br/>
+Before and after.  The original Raspberry Pi Model B made a great portable router but the smaller size and single cable to the computer should make the Raspberry Pi Zero W much more practical.  Also configured with a USB WiFi adapter you can choose between USB Ethernet and a WiFi hotspot.
