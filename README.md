@@ -1,5 +1,6 @@
 # lede-pi0w-usb
-Getting USB Ethernet working on the Pi0w with an install of LEDE.  It’s a little convoluted and I’m open to learning about optimisations.
+Enabling USB Ethernet on the Pi0w with an install of LEDE.
+It’s a little convoluted and I’m open to learning about optimisations.
 
 ## Requirements
 * Raspberry Pi Zero W
