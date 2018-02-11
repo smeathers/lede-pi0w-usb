@@ -70,3 +70,7 @@ https://forum.lede-project.org/t/adblock-support-thread/507
 #### USB WiFi Adaptor
 https://www.andrewklau.com/openwrt-and-a-4-usb-wifi-adapter/
 
+#### Static mac addresses
+By default when the device boots the usb mac address is randomly generated.  This link explains how to add static mac addresses.
+https://github.com/adron-s/QCA953x-usb-device-mode
+The file you need to edit is /etc/modules.d/52-usb-gadget-eth
